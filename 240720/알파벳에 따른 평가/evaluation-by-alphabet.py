@@ -1,4 +1,4 @@
-c=chr(input())
+c=input()
 
 if c=='S':
     print('Superior')
