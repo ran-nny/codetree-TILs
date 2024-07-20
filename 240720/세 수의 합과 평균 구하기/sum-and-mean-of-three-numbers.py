@@ -4,4 +4,4 @@ b=int(n[1])
 c=int(n[2])
 
 print(f"{a+b+c}")
-print(f"{(a+b+c)/3}")
+print(f"{(a+b+c)//3}")
