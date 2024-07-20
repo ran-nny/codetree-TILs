@@ -4,9 +4,9 @@ a=int(n[0])
 b=int(n[1])
 
 if a<b:
-    print(1)
+    print(1, end=" ")
 else:
-    print(0)
+    print(0, end=" ")
 
 if a==b:
     print(1)
