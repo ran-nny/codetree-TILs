@@ -4,7 +4,8 @@ b=int(n[1])
 c=int(n[2])
 
 s=a+b+c
-m=s-(s/3)
+r=int(s/3)
+
 print(s)
-print(s/3)
-print(m)
+print(r)
+print(s-r)
