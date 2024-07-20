@@ -1,6 +1,5 @@
-n=input().split()
-a=int(n[0])
-b=int(n[1])
+a=int(input())
+b=int(input())
 
 a+=87
 b%=10
