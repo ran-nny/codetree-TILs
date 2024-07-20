@@ -1,4 +1,4 @@
-time=input().split(:)
+time=input().split(':')
 h=time[0]
 m=time[1]
 
