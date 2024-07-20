@@ -7,7 +7,7 @@ a_Eng = int(a_score[1])
 b_Math = int(b_score[0])
 b_Eng = int(b_score[1])
 
-if (a_Math>b_Math) and (a_Eng>b_Eng):
+if a_Math>b_Math and a_Eng>b_Eng:
     print(1)
 else:
     print(0)
