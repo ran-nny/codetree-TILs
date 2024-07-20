@@ -1,0 +1,11 @@
+a=int(input())
+n=input().split()
+b=int(n[0])
+c=int(n[1])
+d=int(n[2])
+e=int(n[3])
+
+print(int(a>b))
+print(int(a>c))
+print(int(a>d))
+print(int(a>e))
