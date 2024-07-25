@@ -21,7 +21,7 @@ if s1 == 'Y' and s2 == 'Y':
 elif s1 == 'Y' and s3 =='Y':
     if t1 >= 37 and t3 >= 37:
         print('E')
-    elif s2 == 'Y' and t2 => 37:
+    elif s2 == 'Y' and t2 >= 37:
         print('E')
     else:
         print('N')
