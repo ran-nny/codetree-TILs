@@ -1,4 +1,4 @@
 n = int(input())
 
-for i range(n, n+3):
+for i range(n, 101):
     print(i, end=' ')
