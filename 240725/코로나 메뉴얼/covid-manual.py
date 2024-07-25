@@ -14,15 +14,21 @@ t3 = int(p3[1])
 if s1 == 'Y' and s2 == 'Y':
     if t1 >= 37 and t2>=37:
         print('E')
+    elif s3 == 'Y' and t3 >= 37:
+        print('E')
     else:
         print('N')
 elif s1 == 'Y' and s3 =='Y':
     if t1 >= 37 and t3 >= 37:
         print('E')
+    elif s2 == 'Y' and t2 => 37:
+        print('E')
     else:
         print('N')
 elif s2 == 'Y' and s3 == 'Y':
     if t2 >= 37 and t3 >= 37:
+        print('E')
+    elif s1 == 'Y' and t1 => 37:
         print('E')
     else:
         print('N')
