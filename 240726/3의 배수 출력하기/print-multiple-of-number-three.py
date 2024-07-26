@@ -2,5 +2,6 @@ n = int(input())
 
 i=1
 while i<=n:
-    print(3*i, end=' ')
+    if i%3==0:
+        print(i, end=' ')
     i+=1
