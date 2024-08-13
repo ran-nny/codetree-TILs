@@ -4,8 +4,7 @@ while True:
     n2 = int(a[1])
     c = a[2]
 
+    print(n1*n2)
+
     if c == 'C':
-        print(n1*n2)
         break
-    else:
-        print(n1*n2)
