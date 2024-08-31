@@ -9,7 +9,7 @@ for i in range(n):
                 print(' ', end='')
         else:
             if i <= j:
-                print('* ', end=' ')
+                print('* ', end='')
             else:
                 print(' ', end='')
     print()
