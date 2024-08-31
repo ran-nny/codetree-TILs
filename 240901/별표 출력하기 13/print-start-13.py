@@ -5,7 +5,7 @@ for i in range(n*2):
         for _ in range((i+1)//2):
             print('*', end=' ')
     else:
-        for _ in range(4-(i//2)):
+        for _ in range(n-(i//2)):
             print('*', end=' ')
 
     print()
