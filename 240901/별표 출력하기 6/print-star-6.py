@@ -12,5 +12,4 @@ for i in range(n-2, -1, -1):
         print(' ', end=' ')
     for _ in range(2*n - 2*i -1):
         print('*', end=' ')
-
-print()
+    print()
