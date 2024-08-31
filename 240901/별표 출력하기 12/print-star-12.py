@@ -4,9 +4,9 @@ for i in range(n):
     for j in range(n):
         if j % 2 == 0: #홀수번째 열
             if i == 0:
-                print('* ', end='')
+                print('*', end=' ')
             else:
-                print(' ', end='')
+                print(' ', end=' ')
         else:
             if i <= j:
                 print('* ', end='')
