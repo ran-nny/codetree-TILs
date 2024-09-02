@@ -1,19 +1,12 @@
 n = int(input())
-cnt_0 = 0
-cnt_1 = 1
+cnt = 0
 
 for i in range(n):
     for j in range(n):
-        # 홀수번째 줄 
         if i % 2 == 0:
-            print(n*cnt_0 + 1 + j, end=' ')
-            
-        # 짝수번째 줄
+            print(1 + (n*3)*cnt + j, end=' ')
         else:
-            print(n*cnt_1 + 2 + j*2, end=' ')
-    if i % 2 == 0:
-        cnt_0 = cnt_0 + 3
-    else:
-        cnt_1 = cnt_1*3+1
-
+            print((n*1+2) + (n*3)*cnt + 2*j, end=' ')
     print()
+    if i % 2 != 0:
+        cnt += 1
