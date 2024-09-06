@@ -2,8 +2,8 @@
 m = int(input())
 
 for _ in range(m):
-    cnt = 0
     n = int(input())
+    cnt = 0
     while True: # 1이 될때까지 무한루프
         if n % 2 == 0:
             n //= 2
@@ -12,4 +12,5 @@ for _ in range(m):
         cnt += 1
         if n == 1: #1이 되면 탈출
             break
+        
     print(cnt)
