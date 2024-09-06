@@ -1,6 +1,6 @@
-arr = input().split()
-
+arr = list(map(int, input().split()))
 sum_val = 0
-for i in range(10):
-    sum_val += int(arr[i])
+
+for elem in arr:
+    sum_val += elem
 print(sum_val)
