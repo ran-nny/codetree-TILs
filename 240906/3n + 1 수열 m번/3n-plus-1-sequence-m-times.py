@@ -4,6 +4,10 @@ m = int(input())
 for _ in range(m):
     n = int(input())
     cnt = 0
+    if n == 1:
+        print(cnt)
+        break
+    
     while True: # 1이 될때까지 무한루프
         if n % 2 == 0:
             n //= 2
