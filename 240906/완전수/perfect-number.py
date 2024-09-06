@@ -13,7 +13,7 @@ for i in range(start, end+1):
             # 진약수들의 합 구하기
             sum_val += val
         
-        if sum_val == i:
-            cnt += 1
+    if sum_val == i:
+        cnt += 1
 
 print(cnt)
