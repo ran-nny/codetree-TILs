@@ -1,8 +1,8 @@
 # 반복 횟수 입력
 m = int(input())
-cnt = 0
 
 for _ in range(m):
+    cnt = 0
     n = int(input())
     while True: # 1이 될때까지 무한루프
         if n % 2 == 0:
