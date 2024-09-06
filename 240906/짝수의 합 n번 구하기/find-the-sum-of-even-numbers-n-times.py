@@ -2,7 +2,7 @@ n = int(input())
 
 for i in range(n):
     inp = input().split()
-    a, b = int(z[0]), int(z[1])
+    a, b = int(inp[0]), int(inp[1])
     sum_val = 0
 
     for curr_num in range(a, b+1):
