@@ -3,13 +3,10 @@ n = int(input())
 
 arr = list(map(float, input().split()))
 
-sum_val = 0
-for i in range(n):
-    sum_val += arr[i]
+sum_val = sum(arr)
+avg = sum_val/n
 
-avg = float(f"{sum_val/n:.1f}")
-
-print(avg)
+print(f"{avg:1f}")
 if avg >= 4.0:
     print('Perfect')
 elif avg >= 3.0:
