@@ -1,8 +1,7 @@
 arr = list(map(int, input().split()))
 
-sum_val = 0
 for i in range(len(arr)):
     if arr[i] == 0:
-        sum_val = arr[i-1] + arr[i-2] + arr[i-3]
+        k = i
         break
-print(sum_val)
+print(arr[k-3]+arr[k-2]+arr[k-1])
