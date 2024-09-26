@@ -10,4 +10,4 @@ for elem in arr:
         sum_val += elem
         cnt += 1
     
-print(cnt_2, sum_val)
+print(cnt, sum_val)
