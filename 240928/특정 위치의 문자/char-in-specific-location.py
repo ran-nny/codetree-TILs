@@ -4,3 +4,5 @@ c = input()
 
 if c in arr:
     print(arr.index(c))
+else:
+    print('None')
