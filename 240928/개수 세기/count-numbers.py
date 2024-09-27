@@ -1,13 +1,9 @@
-a = input().split()
-
-n = int(a[0])
-m = int(a[1])
+n, m = tuple(map(int, input().split()))
 
 arr = list(map(int, input().split()))
-cnt = 0
 
-for i in range(n):
-    if m == arr[i]:
-        cnt += 1
+cnt = arr.count(m)
+
+
 
 print(cnt)
