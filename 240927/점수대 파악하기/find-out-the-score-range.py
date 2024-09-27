@@ -2,6 +2,8 @@ arr = list(map(int, input().split()))
 arr_score = [0]*11
 
 for elem in arr:
+    if elem == 0:
+        break
     if elem < 10:
         continue
     if elem == 100:
