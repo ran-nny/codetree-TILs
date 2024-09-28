@@ -4,15 +4,19 @@ arr = list(map(int, input().split()))
 
 cnt = 0
 max_value = arr[0]
+
+# 최댓값 찾기
 for elem in arr:
     if elem >= max_value:
         max_value = elem
-    
+
+# 최댓값이 몇 개 있는지? 
 for elem in arr:
     if elem == max_value:
         cnt += 1
 
-if cnt >= 2:
+# 최댓값이 두개 이상 -> 똑같은 수 ! 
+if cnt > 1:
     print(max_value, max_value)
 else:
     arr_2 = [elem for elem in arr if elem != max_value]
