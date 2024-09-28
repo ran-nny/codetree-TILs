@@ -1,21 +1,28 @@
 n = int(input())
 
 arr = list(map(int, input().split()))
-arr_false = []
 
+cnt = 0
 max_value = arr[0]
 for elem in arr:
-    if elem > max_value:
+    if elem >= max_value:
         max_value = elem
+    
+for elem in arr:
+    if elem == max_value:
+        cnt += 1
 
-arr_2 = [elem for elem in arr if elem != max_value]
+if cnt >= 2:
+    print(max_value, max_value)
+else:
+    arr_2 = [elem for elem in arr if elem != max_value]
 
-max_2_value = arr_2[0]
-for elem in arr_2:
-    if elem > max_2_value:
-        max_2_value = elem
+    max_2_value = arr_2[0]
+    for elem in arr_2:
+        if elem >= max_2_value:
+            max_2_value = elem
 
-print(max_value, max_2_value)
+    print(max_value, max_2_value)
 # 제거된 값 추출
 # removed_values = [elem for elem in n_arr if elem == value_to_remove]
 
