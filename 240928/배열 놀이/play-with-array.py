@@ -17,8 +17,12 @@ for _ in range(1, q+1):
             if arr_n[i-1] == arr_input[1]: # b랑 같은지,,?
                 print(i)
                 idx += 1
+                break
+        if idx == -1:
+            print(0)
     else:
         for i in range(arr_input[1], arr_input[2]+1):
             print(arr_n[i-1], end=' ')
+        print()
 
     idx = -1
