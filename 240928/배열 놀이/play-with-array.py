@@ -10,7 +10,7 @@ for _ in range(1, q+1):
     arr_input= tuple(map(int, input().split()))
 
     if arr_input[0] == 1: # 1 a
-        print(arr_input[1])
+        print(arr_n[arr_input[1]-1])
 
     elif arr_input[0] == 2: # 2 b
         for i in range(1, n+1):
