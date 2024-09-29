@@ -16,19 +16,18 @@ n_arr_not = [elem for i, elem in enumerate(arr) if i not in idx_list]
 n_arr_yes = [elem for ik elem in enumerate(arr) if i in idx_list]
 
 
-if n_arr == arr:    # 모든게 중복
+if n_arr_yes == arr:    # 모든게 중복
     print(-1)
 
-if cnt == 0:
+if cnt == 0:  # 중복된게 하나도 없는 경우
     max_value = arr[0]
     if elem > max_value:
         max_value = elem
 
-else:
-    max_value = n_arr[0]
-    for elem in n_arr:
+else:  # 중복된것 아닌것 섞여있는 경우
+    max_value = n_arr_not
         if elem > max_value:
-            max_value = elem
+            max_value_not= elem
 
 
 print(max_value)
