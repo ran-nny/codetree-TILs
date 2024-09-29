@@ -26,8 +26,8 @@ if cnt == 0:  # 중복된게 하나도 없는 경우
 
 else:  # 중복된것 아닌것 섞여있는 경우
     max_value = n_arr_not
-        if elem > max_value:
-            max_value_not= elem
+    if elem > max_value:
+        max_value_not= elem
 
 
 print(max_value)
