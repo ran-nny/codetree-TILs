@@ -14,6 +14,9 @@ for i in range(0, n-1):
 
 n_arr = [elem for i, elem in enumerate(arr) if i not in idx_list]
 
+if n_arr == arr:    # 모든게 중복
+    print(-1)
+
 if cnt == 0:
     max_value = arr[0]
     if elem > max_value:
