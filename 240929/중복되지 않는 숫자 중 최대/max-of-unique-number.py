@@ -21,13 +21,15 @@ if n_arr_yes == arr:    # 모든게 중복
 
 if cnt == 0:  # 중복된게 하나도 없는 경우
     max_value = arr[0]
-    if elem > max_value:
-        max_value = elem
+    for elem in arr:
+        if elem > max_value:
+            max_value = elem
 
 else:  # 중복된것 아닌것 섞여있는 경우
-    max_value = n_arr_not
-    if elem > max_value:
-        max_value_not= elem
+    max_value = n_arr_not[0]
+    for elem in n_arr_not:
+        if elem > max_value:
+            max_value_not= elem
 
 
 print(max_value)
