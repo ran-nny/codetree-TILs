@@ -10,13 +10,20 @@ for i in range(0, n-1):
         if arr[i] == arr[j]:
             idx_list.append(i)
             idx_list.append(j) # 중복된 수 인덱스 리스트
+            cnt += 1
+
 n_arr = [elem for i, elem in enumerate(arr) if i not in idx_list]
 
-
-max_value = n_arr[0]
-for elem in n_arr:
+if cnt == 0:
+    max_value = arr[0]
     if elem > max_value:
         max_value = elem
+
+else:
+    max_value = n_arr[0]
+    for elem in n_arr:
+        if elem > max_value:
+            max_value = elem
 
 
 print(max_value)
