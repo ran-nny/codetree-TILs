@@ -13,7 +13,7 @@ for i in range(0, n-1):
             cnt += 1
 
 n_arr_not = [elem for i, elem in enumerate(arr) if i not in idx_list]
-n_arr_yes = [elem for ik elem in enumerate(arr) if i in idx_list]
+n_arr_yes = [elem for i, elem in enumerate(arr) if i in idx_list]
 
 
 if n_arr_yes == arr:    # 모든게 중복
