@@ -9,3 +9,6 @@ for i in range(n):
         sum_val += arr_2d[i][j]
     print(sum_val)
     sum_val = 0
+
+# for i in range(4):
+#   print(sum(arr2d[i]))
