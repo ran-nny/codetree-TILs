@@ -20,3 +20,8 @@ for elem in arr_min:
     if elem < min_val:
         min_val = elem
 print(max_val, min_val)
+
+
+# 이렇게 한번에 코드 작성이 가능하다
+#for elem in arr:
+    #if elem < 500 and elem > max_val
