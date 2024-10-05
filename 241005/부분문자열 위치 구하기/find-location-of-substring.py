@@ -20,8 +20,8 @@ for i in range(input_len):
     for j in range(target_len):
         if input_str[i+j] != target_str[j]: # 어차피 i는 픽스 - i+j로 표현하는 방법도!
             is_matched = False
-        if is_matched:
-            print(i)
-            sys.exit(0)
+    if is_matched:
+        print(i)
+        sys.exit(0)
 
 print(-1)
