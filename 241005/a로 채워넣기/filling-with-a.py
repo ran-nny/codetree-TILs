@@ -8,3 +8,4 @@ arr_str[1] = 'a'
 arr_str[-2] = 'a'
 
 string = ''.join(arr_str)
+print(string)
