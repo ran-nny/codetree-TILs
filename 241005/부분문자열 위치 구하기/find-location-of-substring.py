@@ -3,7 +3,7 @@ import sys
 input_str = input()
 target_str = input()
 
-input_len, target_len = len(input_str), len(target_len)
+input_len, target_len = len(input_str), len(target_str)
 
 # 입력 문자열의 각 문자를 시작점으로 하여 목적 문자열을 만들 수 있는지 확인
 for i in range(input_len):
