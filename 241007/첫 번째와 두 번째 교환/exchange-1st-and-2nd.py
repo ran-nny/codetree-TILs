@@ -1,9 +1,17 @@
 string = input()
+string_len = len(string)
 
-# 첫 번째 문자와 같은 문자는 모두 두 번째 문자로 바꾸기 
-# 두 번째 문자와 같은 문자는 모두 첫 번째 문자로 바꾸기
+string_list = list(string)
 
-arr_str = list(string)
+s1 = string_list[0]
+s2 = string_list[1]
 
-c1 = arr_str[0]
-c2 = arr_str[1]
+for i in range(string_len):
+    if string_list[i] == s1:
+        string_list[i] = s2
+    elif string_list[i] == s2:
+        string_list[i] = s1
+
+string = ''.join(string_list)
+
+print(string)
